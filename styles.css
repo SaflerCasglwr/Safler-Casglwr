@@ -5,13 +5,12 @@ div {
 .navbar {
    position: fixed;
     top: 0;
-    margin-left: 230px;
-    margin-right: 40px;
-    width: 83%;
-    background-color: #00006C;
+    width: 60;
+    background-color: #00006c;
     z-index: 000;
     display: flex;
     justify-content: flex-end; /* Aligns the items to the right */
+    padding-right: 20px; /* Add padding to the right for better spacing */
     border-bottom: 5px solid #000000; 
 }
 
@@ -21,8 +20,8 @@ div {
     margin: 90;
     padding: 60;
     overflow: hidden;
-    background-color: #000000;
-    color: #FF0000;
+    background-color: #00006c;
+    color: green;
     display: flex; /* Use flexbox for alignment */
     float: right;
     font-size: 10px;
@@ -30,21 +29,21 @@ div {
 
 
 .navbar ul li {
-    float: left;
+    float: center;
     margin-left: 20px; /* Add margin between the links */
 }
 
 
 .navbar ul li a {
     display: block;
-    color:  #FF0000;
+    color:  green;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 .navbar ul li a:hover {
-    background-color:  #FF0000;
+    background-color:  #00006c;
     color: #000000;
 }
 
