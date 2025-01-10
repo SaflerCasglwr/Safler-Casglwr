@@ -38,9 +38,8 @@ div {
 
 .navbar ul li {
     float: center;
-    top: 0
     margin-left: 20px; /* Add margin between the links*/
-    border: 5px solid #000000
+    border: 5px solid #000000;
 }
 
 
