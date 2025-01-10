@@ -12,7 +12,7 @@ div {
 
 .navbar {
     width: 60;
-    align-items: center;
+    align-items: top;
     background-color: #00006c;
     z-index: 000;
     display: flex;
