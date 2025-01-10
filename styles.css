@@ -11,7 +11,8 @@ div {
 /* Navbar attempt 1 */
 
 .navbar {
-    align-items: top;
+    position: sticky;
+    top: 0;
     background-color: #00006c;
     z-index: 000;
     display: flex;
