@@ -11,9 +11,10 @@ div {
 /* Navbar attempt 1 */
 
 .navbar {
-    width:900px;
-    position: fixed;
+    width: 100%; /* Make navbar stretch across the full width */
+    position: absolute; /* Position navbar at the top */
     top: 0;
+    left: 0;
     align-items: center;
     background-color: #00006c;
     z-index: 000;
