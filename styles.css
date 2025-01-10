@@ -11,7 +11,6 @@ div {
 /* Navbar attempt 1 */
 
 .navbar {
-    width: 60;
     align-items: top;
     background-color: #00006c;
     z-index: 000;
@@ -31,7 +30,7 @@ div {
     color: green;
     display: flex; /* Use flexbox for alignment */
     float: right;
-    font-size: 10px;
+    font-size: 25px;
 }
 
 
