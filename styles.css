@@ -8,7 +8,7 @@ div {
     width: 60vw;
 }
 
-/*    position: fixed; /*
+/* Navbar attempt 1 */
 
 .navbar {
     width: 60;
@@ -54,12 +54,72 @@ div {
     color: #000000;
 }
 
+/* Navbar attempt 2 */
 
-.nav-toggle {
-    display: none;
-    font-size: 24px;
+.navbar .logo a {
     color: white;
-    background: none;
-    border: none;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.navbar .nav-links li {
+    margin: 0 15px;
+}
+
+.navbar .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.navbar .nav-links a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+
+/* Hamburger menu for mobile */
+.hamburger {
+    display: none;
     cursor: pointer;
+}
+
+.hamburger span {
+    font-size: 30px;
+    color: white;
+}
+
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .navbar .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #333;
+        padding: 10px 0;
+    }
+
+    .navbar .nav-links.active {
+        display: flex;
+    }
+
+    .navbar .nav-links li {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .hamburger {
+        display: block;
+    }
 }
