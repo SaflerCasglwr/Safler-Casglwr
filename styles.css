@@ -21,7 +21,7 @@ div {
     z-index: 000;
     display: flex;
     justify-content: space-between;
-    padding: 10px 2px;
+    padding: 10px 36px;
     border-bottom: 5px solid #000000; 
 }
 
