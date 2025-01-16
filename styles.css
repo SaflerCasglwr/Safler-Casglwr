@@ -8,6 +8,21 @@ div {
     width: 60vw;
 }
 
+.flex-parent-element {
+  margin-top: 0px;
+  display: flex;
+  width: 120%;
+}
+
+.flex-child-element {
+  flex: 1;
+  margin: 10px;
+}
+
+.flex-child-element:first-child {
+  margin-right: 20px;
+}
+
 /* Navbar attempt 1 */
 
 .navbar {
