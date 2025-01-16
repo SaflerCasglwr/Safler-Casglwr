@@ -11,7 +11,7 @@ div {
 .flex-parent-element {
   margin-top: 0px;
   display: flex;
-  width: 120%;
+  width: 100%;
 }
 
 .flex-child-element {
