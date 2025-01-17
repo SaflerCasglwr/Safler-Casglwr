@@ -15,12 +15,13 @@ div {
 }
 
 .flex-child-element {
-  flex: 1;
+  flex: 0.69;
   margin: 10px;
 }
 
 .flex-child-element:first-child {
   margin-right: 20px;
+  flex: 0.37;
 }
 
 /* Navbar attempt 1 */
