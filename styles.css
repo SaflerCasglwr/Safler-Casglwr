@@ -8,10 +8,18 @@ div {
     width: 60vw;
 }
 
+h1 {
+    position: absolute;
+    width: 56%;
+    padding: 2px;
+    z-index: 1000;
+}
+
 .flex-parent-element {
   margin-top: 0px;
   display: flex;
   width: 100%;
+  position: absolute;
 }
 
 .flex-child-element {
