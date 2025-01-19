@@ -23,13 +23,13 @@ h1 {
 }
 
 .flex-child-element {
-  flex: 0.69;
+  flex: 0.59;
   margin: 10px;
 }
 
 .flex-child-element:first-child {
   margin-right: 20px;
-  flex: 0.37;
+  flex: 035;
 }
 
 /* Navbar attempt 1 */
