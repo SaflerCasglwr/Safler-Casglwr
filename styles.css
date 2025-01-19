@@ -4,9 +4,8 @@
     box-sizing: border-box;
 }
 
- responsive-img {
-    max-width: 100%;
-    height: auto;
+.responsive-img {
+    width: 65.4vw;
   }
 
   /* Example: Custom styles for small screens */
