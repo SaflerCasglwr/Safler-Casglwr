@@ -1,36 +1,3 @@
-window.addEventListener("load", () => {
-  // (PART A) GET BGM
-  const bgm = document.getElementById("bgm");
-
-  // (PART B) AUTOPLAY NOT ALLOWED - SHOW "PLAY BUTTON"
-  if (bgm.paused) {
-    // (B1) GET "PLAY BUTTON"
-    let play = document.getElementById("play");
-
-    // (B2) CLICK TO PLAY
-    play.onclick = () => {
-      bgm.play();
-      play.classList.remove("show");
-    };
-
-    // (B3) SHOW "PLAY BUTTON"
-    play.classList.add("show");
-  }
-});
-
-function start () {
-  // (PART A) GET SPLASH SCREEN 
-  let splash = document.getElementById("splash");
-
-  // (PART B) PLAY BGM & REMOVE SPLASH SCREEN AFTER FADE IN
-  splash.addEventListener("transitionend", () => {
-    document.getElementById("bgm").play();
-    splash.remove();
-  });
-
-  // (PART C) GO!
-  splash.classList.add("hide");
-}
 
 document.addEventListener('DOMContentLoaded', function () {
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
