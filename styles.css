@@ -4,6 +4,27 @@
     box-sizing: border-box;
 }
 
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Example: Custom styles for small screens */
+  @media (max-width: 600px) {
+    img {
+      width: 80%;  /* Set image width to 80% of the container */
+      display: block;
+      margin: 0 auto;  /* Center the image */
+    }
+  }
+
+  /* Example: Custom styles for large screens */
+  @media (min-width: 1200px) {
+    img {
+      width: 50%;  /* Set image width to 50% of the container */
+    }
+  }
+
 div {
     width: 60vw;
 }
