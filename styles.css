@@ -4,6 +4,24 @@
     box-sizing: border-box;
 }
 
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+html {
+  background-image: url('https://i.ibb.co/GHnzTJr/6b83f81e8d51fd96d4f4f7d95b00dcfa.jpg');
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+body {
+  min-height: 100%;
+}
 
 .responsive-img {
     width: 65.4vw;
