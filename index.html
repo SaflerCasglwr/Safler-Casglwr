@@ -12,41 +12,40 @@
 
 <div class="hidden">
     <p style="height: 0px;">
- /* _____________  __________   __  ____________        ________________ ______ ____ ___ ____  ___        _____________ __________ ____  ____   _________
-    /____    ___/ /__    ___/  //  /     _____/        /______    ____/ / _  / /  //  //  /  / _ /       /____   ____/ /___   __/ /  /  /   /  /   ______/
+     _____________  __________  __   ____________       ________________ ______ ____ ___ ____  ___        _____________ __________ ____  ____   _________
+    /____    ___/ /__    ___/  /_/  /     _____/       /______    ____/ / _  / /  //  //  /  / _ /       /____   ____/ /___   __/ /  /  /   /  /   ______/
         / /          / /          /   /______                /  /     / / / / /  // //   / / / / /           /  /         / /    /   / /   /  /  /______
        / /          / /          /________  /               /  /     / /_/ / /  // //   / / /_/ /           /  /         / /    / ^  // ^ /  /    _____/
    ___/ /___       / /         _________/  /               /  /     /  ^  / /   / /    / /  ^   /          /  /       __/ /__  / // // // / /    /_____
   /_____ ___/     /_/         /___________/               /__/     /_/-/_/ /__//_//___/ /_/-/__/          /__/      /_______/ /_/ /__/ /_/ /__________/
- */
+        
     </p>
 </div>
     
 <style>
-    
+           img {
+           position: absolute;
+           border-bottom: 5px solid #000000; 
+           }
 
-img {
-  position: absolute;
-  border-bottom: 5px solid #000000;
-}
-
-.hidden {
-    visibility: hidden;
-}
+          .hidden {
+          visibility: hidden;
+          }
     
-body {
-  font-family: Copperplate, Papyrus, fantasy;
-  background-image: url('https://i.ibb.co/GHnzTJr/6b83f81e8d51fd96d4f4f7d95b00dcfa.jpg');
-  background-repeat: no-repeat;
-  background-attatchment: fixed;
-  background-size: cover;
-  height: 100vh;  /* Ensures the body takes the full viewport height */
-  display: flex;  /* Allows child elements to adjust within the body's height */
-  flex-direction: column; /* Align elements vertically */
-}
+          body {
+          font-family: Copperplate, Papyrus, fantasy;
+          background-image: url('https://i.ibb.co/GHnzTJr/6b83f81e8d51fd96d4f4f7d95b00dcfa.jpg');
+          background-repeat: no-repeat;
+          background-attatchment: fixed;
+          background-size: cover;
+          height: 100vh;  
+          display: flex; 
+          flex-direction: column; 
+          }
+    
         * {
             margin: 0;
-            padding: 60;
+            padding: 60px;
             box-sizing: border-box;
         }
 
@@ -62,8 +61,8 @@ body {
         .container {
             width: 120%;
             position: relative;
-            max-width: 1600px;        /* Maximum width on large screens */
-            margin: 0 auto;           /* Center the container */
+            max-width: 1600px;      
+            margin: 0 auto;      
             padding: 40px;            
             height: 100%;
             background-color: #00006c;
@@ -75,10 +74,9 @@ body {
             box-sizing: border-box;
             border-radius: 8px;
             border: 8px solid #000000;
-            min-height: 100vh;        /* Makes sure it fills the full viewport height */
-            flex-direction: column;   /* Align the child elements vertically */
-            justify-content: center;  /* Vertically centers the content */
-        }
+            min-height: 100vh;       
+            flex-direction: column;   
+            justify-content: center; 
         }
 
         .content {
@@ -87,42 +85,40 @@ body {
 
         @media (min-width: 768px) {
             .container {
-                width: 85%;           /* Increased width for larger screens like tablet */
-                background-color: #00006C; /* Change color for tablet/desktop */
+                width: 85%;          
+                background-color: #00006C; 
             }
         }
 
         @media (min-width: 1024px) {
             .container {
-                width: 75%;           /* Wider container for larger desktops */
-                background-color: #00006C; /* Change color for larger desktops */
+                width: 75%;           
+                background-color: #00006C; 
             }
         }
 
         @media (min-width: 1200px) {
             .container {
-                width: auto;           /* Even wider container for big screens */
-                background-color: #00006C; /* Change color for extra-large screens */
+                width: auto;           
+                background-color: #00006C;
             }
         }
 </style>
 </head>
     <body>
         <div class="background"></div>
-    
-    <section id="Home">
-        
+            <section id="Home">
                 <div class="container">
                     <div class="content">
                                <div class="navbar">
-                            <ul>
-                                <li><a href="#section1">CARIADON DANNEDD</a> </li>
-                                <li><a href="#section2">DIPTERA AFRADLON</a></li>
-                                <li><a href="#section3">GWEINIDOG CYMRU</a> </li>
-                                <li><a href="#section4">CANLLAWIAU GWEITHDREFN PHLEBOTOMY</a></li>
-                                <li><a href="#section5">EBM</a> </li>
-                                <li><a href="#section6">FFILM AM DDIM!!!</a></li>
-                            </ul>
+                                    <ul>
+                                        <li><a href="#section1">CARIADON DANNEDD</a> </li>
+                                        <li><a href="#section2">DIPTERA AFRADLON</a></li>
+                                        <li><a href="#section3">GWEINIDOG CYMRU</a> </li>
+                                        <li><a href="#section4">CANLLAWIAU GWEITHDREFN PHLEBOTOMY</a></li>
+                                        <li><a href="#section5">EBM</a> </li>
+                                        <li><a href="#section6">FFILM AM DDIM!!!</a></li>
+                                    </ul>
                                </div>
                             <div style="display: flex; justify-content: center; align-items: center; margin-top: -180px; height: 0vh;">
                                   <img class="responsive-img" id="img" src="https://i.ibb.co/CbTm9RV/Screenshot-2025-01-10-at-12-02-05-AM.png" width="956px" height="155px">
@@ -130,6 +126,7 @@ body {
 
                         
            <section id="section1">
+               
                     <div class="flex-parent-element">
                         
                             <div class="flex-child-element magenta" style="display: flex; justify-content: left; align items: center; margin-top: 98px;">
@@ -138,11 +135,13 @@ body {
                             </div>
     
                             <div class="flex-child-element green" style="display: flex; float: right; margin-top: 100px; border: solid 4px #008000; width: 62%;">
-                                <br> <h1><font size="6"><u> CARIADON DANNEDD, YN CODI</u></font></h1>
-                              <p style="width: 500px;"> <br><br>
-O, edrychwch ar y dannedd mân hyn. Mae perlau ifori wedi'u gwasgaru am ymyl gwely o sglein pinc. Blaenddannedd canolog yn disgleirio, gan ddangos eu lle fel y pâr mwyaf nodedig. Fodd bynnag, nid yw hynny'n tynnu oddi ar y dannedd sy'n llechu ac yn cuddio o fewn ceudwll y deintgig. Er efallai na fyddant yn disgleirio, nac yn disgleirio mor llachar â'r blaenddannedd neu'r caninau, mae'r cilddannedd yr un mor arwyddocaol, gan roi cryfder cnoi i bawb. Mae'n drueni pan fydd y traean yn gwacáu'r geg. Mae'n drueni pan fydd dannedd babanod yn cwympo allan. Felly prithee, os yw eich calon yn dymuno, cysylltwch â SAFLERCASGLWR@HOTMAIL.COM am gyfle i roi eich dannedd i arbenigwr gofalgar sy’n caru dannedd…</p>
+                                <br> 
+                                <h1><font size="6"><u> CARIADON DANNEDD, YN CODI</u></font></h1>
+                                    <p style="width: 500px;"> 
+                                    <br><br>
+                                        O, edrychwch ar y dannedd mân hyn. Mae perlau ifori wedi'u gwasgaru am ymyl gwely o sglein pinc. Blaenddannedd canolog yn disgleirio, gan ddangos eu lle fel y pâr mwyaf nodedig. Fodd bynnag, nid yw hynny'n tynnu oddi ar y dannedd sy'n llechu ac yn cuddio o fewn ceudwll y deintgig. Er efallai na fyddant yn disgleirio, nac yn disgleirio mor llachar â'r blaenddannedd neu'r caninau, mae'r cilddannedd yr un mor arwyddocaol, gan roi cryfder cnoi i bawb. Mae'n drueni pan fydd y traean yn gwacáu'r geg. Mae'n drueni pan fydd dannedd babanod yn cwympo allan. Felly prithee, os yw eich calon yn dymuno, cysylltwch â SAFLERCASGLWR@HOTMAIL.COM am gyfle i roi eich dannedd i arbenigwr gofalgar sy’n caru dannedd…
+                                    </p>
                             </div>
-
                   </div>
           </section>
                         
@@ -153,7 +152,7 @@ O, edrychwch ar y dannedd mân hyn. Mae perlau ifori wedi'u gwasgaru am ymyl gwe
                             <p style="width: 500px;"> <br><br>
                             </p>
                         </div>
-                       <div class="flex-child-element green" style="display: flex; float: right; margin-top: 380px; width: 30%;">
+                        <div class="flex-child-element green" style="display: flex; float: right; margin-top: 380px; width: 30%;">
                            <img src="https://i.ibb.co/dgKXnf7/Screenshot-2025-01-23-at-10-41-44-AM.png" style="border: solid 5px #000000; width: 350px;">
                            <img src="https://i.ibb.co/gg5L6Ty/Screenshot-2025-01-23-at-10-45-11-AM.png" style="border: solid 5px #000000; width: 350px;">
                            <img src="https://i.ibb.co/xgxv3b9/20231224-200439-3-cleanup.png" style="border: solid 5px #000000; width: 350px;">
@@ -161,5 +160,5 @@ O, edrychwch ar y dannedd mân hyn. Mae perlau ifori wedi'u gwasgaru am ymyl gwe
                        </div>
                     </div>
                 </section>
-                    </body>
+       </body>
 </html>
