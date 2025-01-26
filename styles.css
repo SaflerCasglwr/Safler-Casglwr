@@ -108,6 +108,7 @@ h1 {
 /* Navbar attempt 1 */
 
 .navbar {
+    margin-top: 3217px;
     width: 100%; 
     position: absolute;
     top: 0;
