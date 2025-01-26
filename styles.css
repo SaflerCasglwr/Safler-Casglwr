@@ -123,7 +123,7 @@ h1 {
 
 .navbar ul {
     list-style-type: none;
-    margin-left: -4;
+    margin-left: -4px;
     overflow: hidden;
     background-color: #00006c;
     color: green;
