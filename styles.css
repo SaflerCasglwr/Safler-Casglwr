@@ -152,7 +152,27 @@ h1 {
     transition: background-color 0.3s ease, color 0.3s linear;
 }
 
+
 .navbar ul li a:hover {
     background-color:  #008000;
     color: #000000;
+    transform: scale(1.1);  /* Slightly enlarge */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);  /* Add shadow for depth */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);  /* Glowing text effect */
+}
+
+
+.navbar ul li a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #008000;
+    transition: width 0.3s ease-in-out; /* Sliding underline */
+}
+
+.navbar ul li a:hover::after {
+    width: 100%;  /* Underline slides in */
 }
