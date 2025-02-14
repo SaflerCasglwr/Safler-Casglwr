@@ -60,6 +60,11 @@ body {
   animation: moveBackground 10s linear infinite, stretchBackground 5s infinite alternate;
 }
 
+.myGif {
+    margin-left: -100px;
+    reapeat: repeat-y;
+}
+
 /* Move background left to right */
 @keyframes moveBackground {
   0% {
