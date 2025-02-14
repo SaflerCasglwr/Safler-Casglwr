@@ -62,7 +62,7 @@ body {
 
 .myGif {
     margin-left: -100px;
-    reapeat: repeat-y;
+    repeat: repeat-y;
 }
 
 /* Move background left to right */
