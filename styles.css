@@ -204,7 +204,7 @@ h1 {
     width: 0;
     height: 2px;
     background-color: #008000;
-    transition: width 0.3s ease-in-out; /* Sliding underline */
+    transition: width 1s ease-in-out; /* Sliding underline */
 }
 
 .navbar ul li a:hover::after {
