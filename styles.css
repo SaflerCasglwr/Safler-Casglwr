@@ -150,6 +150,7 @@ h1 {
     justify-content: space-between;
     padding: 10px 4px;
     border-bottom: 5px solid #000000; 
+    border-radius: 15px;
 }
 
 
@@ -188,6 +189,7 @@ h1 {
 .navbar ul li a:hover {
     background-color:  #008000;
     color: #000000;
+    border-radius: 15px;
     transform: scale(1.1);  /* Slightly enlarge */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);  /* Add shadow for depth */
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 1.5);  /* Glowing text effect */
